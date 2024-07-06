@@ -12,3 +12,11 @@
 ### Bonus
 
 1. Fetch a list of pokemon from [https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json](https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/pokedex.json) and write the results to a .json file (only do this for the set up).
+2. Create 4 endpoints for GET (getting the list of all pokemon), POST (adding a pokemon to the file), PUT (updating an existing pokemon in the file), and DELETE (removing a pokemon from the file).
+
+    1. Your GET route should just read and return the list of pokemon from the json file.
+    2. Your POST request should just read and return the list of pokemen from the json file.
+    3. Your PUT request should receive a request body and pokemen id to both select and update a pokemon in the list.
+    4. Your DELETE request should receive a pokemen id to remove a pokemon from the list.
+
+
